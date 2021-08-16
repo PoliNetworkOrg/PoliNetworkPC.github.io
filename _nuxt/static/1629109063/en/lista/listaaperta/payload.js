@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/lista/listaaperta", {data:[{}],fetch:{},mutations:void 0});

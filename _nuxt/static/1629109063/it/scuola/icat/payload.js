@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/it/scuola/icat", {data:[{}],fetch:{},mutations:void 0});

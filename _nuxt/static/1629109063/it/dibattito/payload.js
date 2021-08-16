@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/it/dibattito", {data:[{}],fetch:{},mutations:void 0});

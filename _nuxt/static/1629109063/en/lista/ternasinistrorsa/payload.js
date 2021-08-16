@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/lista/ternasinistrorsa", {data:[{}],fetch:{},mutations:void 0});

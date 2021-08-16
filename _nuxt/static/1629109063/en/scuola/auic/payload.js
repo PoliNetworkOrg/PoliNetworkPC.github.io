@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/scuola/auic", {data:[{}],fetch:{},mutations:void 0});
