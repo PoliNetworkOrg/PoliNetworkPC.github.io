@@ -33,7 +33,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: 👨🏻‍💻 Install dependencies
+      - name: 👨🏻‍💻 Install dependencies (1)
+        run: npm i fsevents@latest -f --save-optional
+        
+      - name: 👨🏻‍💻 Install dependencies (2)
         run: npm ci
 
       - name: 👨‍🏭️ Generate
