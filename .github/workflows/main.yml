@@ -34,9 +34,12 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: 👨🏻‍💻 Install dependencies (1)
+        run: npm cache verify
+
+      - name: 👨🏻‍💻 Install dependencies (2)
         run: npm i fsevents@latest -f --save-optional
         
-      - name: 👨🏻‍💻 Install dependencies (2)
+      - name: 👨🏻‍💻 Install dependencies (3)
         run: npm ci
 
       - name: 👨‍🏭️ Generate
