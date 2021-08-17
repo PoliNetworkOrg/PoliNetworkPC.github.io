@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/scuola/trei", {data:[{}],fetch:{},mutations:void 0});

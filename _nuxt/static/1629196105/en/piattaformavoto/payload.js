@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/piattaformavoto", {data:[{}],fetch:{},mutations:void 0});

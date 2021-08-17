@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[53],{147:function(n,t,e){"use strict";e.r(t);var l=e(6),component=Object(l.a)({},(function(){var n=this.$createElement,t=this._self._c||n;return t("div",[t("PagesMain",{attrs:{language:"it"}})],1)}),[],!1,null,null,null);t.default=component.exports;installComponents(component,{PagesMain:e(102).default})}}]);

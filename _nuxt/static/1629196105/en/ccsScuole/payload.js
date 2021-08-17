@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/ccsScuole", {data:[{}],fetch:{},mutations:void 0});
