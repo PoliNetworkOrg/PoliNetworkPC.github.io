@@ -34,8 +34,8 @@
 					<hr />
 
 					<div style="padding:5px;"></div>
-					<p  class="container2">
-						{{item.text}} 
+					<p  class="container2" style="font-size:calc(1rem + 0.2vw + 1px);">
+						{{item.prezzo}} 
 						</p>
 					<div class="row container4">
 						<LayoutFrame class-param="col-sm-3 wow animated fadeInLeft"
@@ -81,10 +81,10 @@
 
         <div >
     
-			<a href="../../trei/">
+			<a :href="this.dataLista.scuolalink">
 				<div class="lead container3" style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);">
-					<span v-if="language == 'it'">Torna alla scuola</span>
-					<span v-if="language == 'en'">Back to school</span>
+					<span v-if="language == 'it'">🔙 Torna alla scuola</span>
+					<span v-if="language == 'en'">🔙 Back to school</span>
 				</div>
 			</a>
     
