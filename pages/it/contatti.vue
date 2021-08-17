@@ -15,28 +15,7 @@
                         </div>
                         <div style="text-align:left;">
 
-                            <ul style="list-style: none;padding-left:0px;">
-                                <li class="li">
-                                    <span class="questionSpan">Sono membro di una lista di rappresentanza e vorrei aggiornare le informazioni presenti su questo sito</span>
-                                    <br class="spacerQuestion" />
-                                    <span class="answerSpan">Tutte le liste di rappresentanza sono già in contatto con noi, contatta quindi il tuo responsabile di lista</span>
-                                </li>
-                                <li class="li">
-                                    <span class="questionSpan">Sono candidato (ad esempio in un corso di studi) ma non sono affiliato con nessuna lista di rappresentanza, e vorrei essere aggiunto a questo sito</span>
-                                    <br class="spacerQuestion" />
-                                    <span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-                                </li>
-                                <li class="li">
-                                    <span class="questionSpan">Sono uno studente e vorrei avere più informazioni e/o segnalare degli errori</span>
-                                    <br class="spacerQuestion" />
-                                    <span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-                                </li>
-                                <li class="li">
-                                    <span class="questionSpan">Faccio parte di una qualsiasi altra categoria d'utenza e vorrei contattarvi in merito a queste pagine dedicate alle elezioni</span>
-                                    <br class="spacerQuestion" />
-                                    <span class="answerSpan">Scrivi a <a href="https://t.me/GabrieleAur98">Gabriele</a></span>
-                                </li>
-                            </ul>
+                           Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro <a href="https://polinetwork.github.io/">sito web principale</a>
                         </div>
                     </header>
                 </div>

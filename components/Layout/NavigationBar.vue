@@ -18,14 +18,8 @@
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/organi'">Organi da votare 🗳</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/organi'">Bodies to vote 🗳</a>
-                    </li>
-                    <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/storia'">Storia 📑</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/storia'">History 📑</a>
-                    </li>
+       
+	   
                     <li class="nav-item">
                         <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
                         <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
