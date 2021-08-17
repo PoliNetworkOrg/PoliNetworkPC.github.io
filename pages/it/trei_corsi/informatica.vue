@@ -11,7 +11,7 @@ export default {
       items: {
             name: "Informatica",
 			scuolalink: "../../trei/",
-			desc: "Ad informatica il software più pesante sarà Vivado, è consigliato avere almeno 8 giga di RAM ecc ecc ecc...",
+			desc: ["Ad informatica il software più pesante sarà Vivado, è consigliato avere almeno 8 giga di RAM ecc ecc ecc..."],
          	imageUrl:"/img/corsi/pc.png",
             fasce:[
 				{id:1, prezzo:"500-600€", pc:[

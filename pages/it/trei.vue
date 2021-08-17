@@ -19,7 +19,7 @@
                 </div>
                 <div style="text-align:center;">
                     <ul style="ulCcs">
-                        <li class="liCcs"><a class="topLinks" href="#1">Ingegneria Aerospaziale</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../trei_corsi/aerospaziale/">Ingegneria Aerospaziale</a></li>
                         <li class="liCcs"><a class="topLinks" href="#2">Ingegneria dell'Automazione</a></li>
                         <li class="liCcs"><a class="topLinks" href="#3">Ingegneria Biomedica</a></li>
                         <li class="liCcs"><a class="topLinks" href="#4">Ingegneria Chimica</a></li>

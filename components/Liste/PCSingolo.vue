@@ -11,7 +11,7 @@
             </div>
             <div class="container2 wow animated fadeInUp">
                 <h2 style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;">{{this.dataLista.name}}</h2>
-<p>{{this.dataLista.desc}}</p>
+<p  v-for="itemdesc in this.dataLista.desc"        :key="itemdesc">{{itemdesc}}</p>
         
 
                 
@@ -80,7 +80,10 @@
         <div style="padding:1.7rem;"></div>
 
         <div >
-    
+            <div class="container2 wow animated fadeInUp" style="text-align:center;">
+			Vuoi suggerire delle modifiche a questa pagina?<br />Scrivi ai nostri <a href="./../../contatti/">contatti</a> o apri una issue/pr sul <a href="https://github.com/PoliNetworkPC/PoliNetworkPC.github.io">progetto github</a>
+			</div>
+			<div style="padding:1rem;"></div>
 			<a :href="this.dataLista.scuolalink">
 				<div class="lead container3" style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);">
 					<span v-if="language == 'it'">🔙 Torna alla scuola</span>
