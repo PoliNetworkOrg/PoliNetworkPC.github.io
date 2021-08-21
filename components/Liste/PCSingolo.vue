@@ -6,8 +6,8 @@
         <br />
 
         <div class="intro white" style="text-align: center;">
-            <div style="width:100%;">
-				<div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto">
+            <div style="width:100%;display:ruby-base-container;text-align: center; ">
+				<div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto" style="text-align: center;margin:auto;padding:0.5rem;"> 
                 	<img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
 				</div>
             </div>

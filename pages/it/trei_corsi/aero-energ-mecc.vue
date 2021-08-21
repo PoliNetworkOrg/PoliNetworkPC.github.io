@@ -19,7 +19,7 @@ export default {
 ,
 "Consiglio di non trascurare la comodità e la durata della batteria. Il primo anno il pc serve poco (1 esame + consultazione dispense e slides) e prendere un mattone da gaming che consuma quanto l'intera casa va bene, ma da metà triennale in poi il PC diventa praticamente d'uso giornaliero fino alla fine degli studi. (Non dico che tutta la gamma gaming non va bene, semplicemente cercate un compromesso ragionevole Ingegneria ≠ pc super pompati)"
 ],
-         	imageUrl:["/img/corsi/aerospaziale.jpg"],
+         	imageUrl:["/img/corsi/aerospaziale.jpg","/img/corsi/energetica.png","/img/corsi/meccanica.png"],
             fasce:[
 				{id:1, prezzo:"500-600€", pc:[
 					{id:1, text:"Acer Intel N4120", link:"https://www.amazon.it/Notebook-portatile-Acer-display-FullHD/dp/B08FTDRZN6/", imgurl:"/img/pc/acer-intel-n4120.jpg", car:[
