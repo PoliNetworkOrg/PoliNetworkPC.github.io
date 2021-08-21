@@ -12,7 +12,7 @@ export default {
             name: "Informatica",
 			scuolalink: "../../trei/",
 			desc: ["Ad informatica il software più pesante sarà Vivado, è consigliato avere almeno 8 giga di RAM ecc ecc ecc..."],
-         	imageUrl:"/img/corsi/pc.png",
+         	imageUrl:["/img/corsi/pc.png"],
             fasce:[
 				{id:1, prezzo:"500-600€", pc:[
 					{id:1, text:"Acer Intel N4120", link:"https://www.amazon.it/Notebook-portatile-Acer-display-FullHD/dp/B08FTDRZN6/", imgurl:"/img/pc/acer-intel-n4120.jpg", car:[

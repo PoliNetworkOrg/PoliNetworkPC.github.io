@@ -7,7 +7,9 @@
 
         <div class="intro white" style="text-align: center;">
             <div style="width:100%;">
-                <img :src="dataLista.imageUrl" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
+				<div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto">
+                	<img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
+				</div>
             </div>
             <div class="container2 wow animated fadeInUp">
                 <h2 style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;">{{this.dataLista.name}}</h2>
