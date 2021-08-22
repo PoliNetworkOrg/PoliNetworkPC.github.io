@@ -19,10 +19,10 @@
                 </div>
                 <div style="text-align:center;">
                     <ul style="ulCcs">
-                        <li class="liCcs"><a class="topLinks" href="#1">Ingegneria per l'Ambiente e il Territorio - Sede di Milano</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#2">Ingegneria Civile - Sede di Milano</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#3">Ingegneria Civile e Ambientale - Sede di Lecco</a></li>
-                        <li class="liCcs"><a class="topLinks" href="#4">Civil Engineering for Risk Mitigation - Sede di Lecco</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../icat_corsi/default/">Ingegneria per l'Ambiente e il Territorio - Sede di Milano</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../icat_corsi/default/">Ingegneria Civile - Sede di Milano</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../icat_corsi/default/">Ingegneria Civile e Ambientale - Sede di Lecco</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../icat_corsi/default/">Civil Engineering for Risk Mitigation - Sede di Lecco</a></li>
                     </ul>
                 </div>
             </header>

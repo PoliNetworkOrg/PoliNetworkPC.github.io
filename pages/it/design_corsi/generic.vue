@@ -9,9 +9,9 @@ export default {
     data () {
     return {
       items: {
-            name: "Scuola 3I",
-			scuolalink: "../../trei/",
-			desc: ["Consigli generici per la scuola 3I..."],
+            name: "Scuola DESIGN",
+			scuolalink: "../../design/",
+			desc: ["Consigli generici per la scuola DESIGN..."],
          	imageUrl:["/img/corsi/pc.png"],
             fasce:[
 				{id:1, prezzo:"500-600€", pc:[

@@ -20,7 +20,7 @@
             <div class="container2 wow animated fadeInUp">
                 <h2 style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;">
                     <span v-if="this.dataLista.notFound == true">
-                   Corso non disponibile
+                   Corso non ancora disponibile
                     </span>
                     <span v-else>
                              {{this.dataLista.name}}
@@ -37,7 +37,7 @@
     <div style="padding:0.2rem;"></div>
          <div style="padding:0.2rem;">
         <span style="font-size:calc(0.7rem + 0.3vw);">
-        Visita il nostro gruppo telegram, i suggerimenti generici per la tua scuola e i suggerimenti per altri corsi della tua scuola presenti sul nostro sito
+        Visita il nostro gruppo telegram dedicato ai consigli di acquisto di PC, visita i suggerimenti generici per la tua scuola e visita i suggerimenti per altri corsi della tua scuola presenti sul nostro sito
         </span>
         </div>
     </div>
