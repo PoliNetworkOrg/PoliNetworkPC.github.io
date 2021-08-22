@@ -7,15 +7,81 @@
 
         <div class="intro white" style="text-align: center;">
             <div style="width:100%;display:ruby-base-container;text-align: center; ">
-				<div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto" style="text-align: center;margin:auto;padding:0.5rem;"> 
-                	<img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
-				</div>
+		        <div  v-if="this.dataLista.notFound == true" >
+                    <img src="/img/corsi/not-found.png" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
+				
+                </div>
+                <div v-else>
+                    <div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto" style="text-align: center;margin:auto;padding:0.5rem;"> 
+                	    <img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
+				    </div>
+                </div>
             </div>
             <div class="container2 wow animated fadeInUp">
-                <h2 style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;">{{this.dataLista.name}}</h2>
-<p  v-for="itemdesc in this.dataLista.desc"        :key="itemdesc">{{itemdesc}}</p>
+                <h2 style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;">
+                    <span v-if="this.dataLista.notFound == true">
+                   Corso non disponibile
+                    </span>
+                    <span v-else>
+                             {{this.dataLista.name}}
+                    </span>
+                </h2>
+    <div  v-if="this.dataLista.notFound == true" >
+        Il corso da te scelto non è ancora presente sul nostro sito. Visita il nostro gruppo telegram, i suggerimenti generici per la tua scuola e i suggerimenti per altri corsi della tua scuola presenti sul nostro sito
+    </div>
+    <div v-else>
+        <p  v-for="itemdesc in this.dataLista.desc"        :key="itemdesc">
+            {{itemdesc}}
+        </p>
+    </div>
         
-
+            <!--- Buttons -->
+            <div style="padding:1rem;">
+            <div  v-if="this.dataLista.notFound == true" >
+                <a href="https://t.me/" style="margin:auto;">
+                        <div>
+                                     <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td>
+                                        <img src="/img/tg.svg" style="width:1.5rem;" />
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                               
+                                            Gruppo telegram
+                            
+                                    </td>
+                                </tr>
+                            </table>
+                                        </button>
+                        </div>
+                    </a>
+                </div>
+                <div v-for="itembutton in this.dataLista.buttons" :key="itembutton.id"    style="width:100%;display:ruby-base-container;text-align: center; ">
+                    <a :href="itembutton.link" style="margin:auto;">
+                        <div>
+                                     <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td v-for="itemimage in itembutton.linkimage" :key="itemimage" style="padding-top:0.1rem;">
+                                        <img :src="itemimage" style="width:2rem;" />
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                               {{itembutton.text}}
+                                    </td>
+                                </tr>
+                            </table>
+                                        </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
                 
             </div><!-- /.container -->
         </div><!-- /.intro -->
