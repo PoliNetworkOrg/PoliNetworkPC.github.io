@@ -11,9 +11,9 @@
                     <img src="/img/corsi/not-found.png" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
 				
                 </div>
-                <div v-else>
-                    <div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto" style="text-align: center;margin:auto;padding:0.5rem;"> 
-                	    <img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;">
+                <div v-else style="display: flex;flex-wrap: wrap;">
+                    <div v-for="itemphoto in this.dataLista.imageUrl"        :key="itemphoto" style="display: flex;flex: 1 1 25%;padding: 5px;max-width: 100%;"> 
+                	    <img :src="itemphoto" style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;margin:auto;">
 				    </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div v-for="itembutton in this.dataLista.buttons" :key="itembutton.id"    style="width:100%;display:ruby-base-container;text-align: center; ">
-                    <a :href="itembutton.link" style="margin:auto;">
+                    <a :href="itembutton.linkpage" style="margin:auto;">
                         <div>
                                      <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
                             <table style="width:100%;">
