@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/it/trei_corsi/generic", {data:[{}],fetch:{},mutations:void 0});
