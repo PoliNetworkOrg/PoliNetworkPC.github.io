@@ -27,7 +27,19 @@
                     </span>
                 </h2>
     <div  v-if="this.dataLista.notFound == true" >
-        Il corso da te scelto non è ancora presente sul nostro sito. Visita il nostro gruppo telegram, i suggerimenti generici per la tua scuola e i suggerimenti per altri corsi della tua scuola presenti sul nostro sito
+        
+    <div style="padding:0.2rem;"></div>
+        <div style="padding:0.2rem;">
+        <span style="font-size:calc(0.8rem + 0.5vw);">
+        Il corso da te scelto non è ancora presente sul nostro sito. 
+        </span>
+        </div>
+    <div style="padding:0.2rem;"></div>
+         <div style="padding:0.2rem;">
+        <span style="font-size:calc(0.7rem + 0.3vw);">
+        Visita il nostro gruppo telegram, i suggerimenti generici per la tua scuola e i suggerimenti per altri corsi della tua scuola presenti sul nostro sito
+        </span>
+        </div>
     </div>
     <div v-else>
         <p  v-for="itemdesc in this.dataLista.desc"        :key="itemdesc">
@@ -37,8 +49,10 @@
         
             <!--- Buttons -->
             <div style="padding:1rem;">
-            <div  v-if="this.dataLista.notFound == true" >
-                <a href="https://t.me/joinchat/oD7NGpl0W6VjYmI0" style="margin:auto;">
+            <div  v-if="this.dataLista.notFound == true" style="width:100%;display:ruby-base-container;text-align: center; ">
+                
+               <div>
+               <a href="https://t.me/joinchat/oD7NGpl0W6VjYmI0" style="margin:auto;">
                         <div>
                                      <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
                             <table style="width:100%;">
@@ -59,7 +73,33 @@
                                         </button>
                         </div>
                     </a>
+               </div>
+               <div>
+               <a href="../generic/" style="margin:auto;">
+                        <div>
+                                     <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
+                            <table style="width:100%;">
+                                <tr>
+                                    <td>
+                                        <img src="/img/puzzle.png" style="width:1.5rem;" />
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                               
+                                            Consigli generici per la tua scuola
+                            
+                                    </td>
+                                </tr>
+                            </table>
+                                        </button>
+                        </div>
+                    </a>
+               </div>
                 </div>
+            </div>
+            <div>
                 <div v-for="itembutton in this.dataLista.buttons" :key="itembutton.id"    style="width:100%;display:ruby-base-container;text-align: center; ">
                     <a :href="itembutton.linkpage" style="margin:auto;">
                         <div>
