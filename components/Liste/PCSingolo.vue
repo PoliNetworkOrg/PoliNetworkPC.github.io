@@ -38,7 +38,7 @@
             <!--- Buttons -->
             <div style="padding:1rem;">
             <div  v-if="this.dataLista.notFound == true" >
-                <a href="https://t.me/" style="margin:auto;">
+                <a href="https://t.me/joinchat/oD7NGpl0W6VjYmI0" style="margin:auto;">
                         <div>
                                      <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
                             <table style="width:100%;">
