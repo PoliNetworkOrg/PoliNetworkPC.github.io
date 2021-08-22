@@ -25,6 +25,7 @@
                     <span v-else>
                              {{this.dataLista.name}}
                     </span>
+                       <div style="padding:0.4rem;"></div>
                 </h2>
     <div  v-if="this.dataLista.notFound == true" >
         
@@ -128,7 +129,7 @@
 
 		
 
-
+        <div v-if="dataLista.fasce != null && dataLista.fasce.length > 0">
 		<div style="padding:0.8rem;"></div>
 
         <div class="section" id="our-info">
@@ -178,7 +179,7 @@
 				</div>
 		    </LayoutFrame>
         </div><!-- our-info -->
-
+        </div>
 
         
 

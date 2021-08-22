@@ -19,6 +19,7 @@
                 </div>
                 <div style="text-align:center;">
                     <ul style="ulCcs">
+                        <li class="liCcs"><a class="topLinks" href="../trei_corsi/generic/">&lt;Consigli generici per la scuola 3I&gt;</a></li>
                         <li class="liCcs"><a class="topLinks" href="../trei_corsi/aero-energ-mecc/">Ingegneria Aerospaziale</a></li>
                         <li class="liCcs"><a class="topLinks" href="../trei_corsi/default/">Ingegneria dell'Automazione</a></li>
                         <li class="liCcs"><a class="topLinks" href="../trei_corsi/default/">Ingegneria Biomedica</a></li>

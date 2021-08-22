@@ -18,9 +18,10 @@
                 </div>
                 <div style="text-align:center;">
                     <ul style="ulCcs">
+                        <li class="liCcs"><a class="topLinks" href="../auic_corsi/generic/">&lt;Consigli generici per la scuola AUIC&gt;</a></li>
                         <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea in Ingegneria Edile e delle Costruzioni L23 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea in Progettazione dell'Architettura L17 (MI, MN, PC)</a></li>
-                        <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea in Urbanistica: Città Ambiente Paesaggio L21 (MI)</a></li>
+                        <li class="liCcs"><a class="topLinks" href="../auic_corsi/urbanistica/">Laurea in Urbanistica: Città Ambiente Paesaggio L21 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea Magistrale in Architectural Design History - Progettazione Architettonica e Storia LM4 (MN)</a></li>
                         <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea Magistrale in Architettura - Ambiente Costruito - Interni - Architecture - Built Environment - Interiors LM4 (MI)</a></li>
                         <li class="liCcs"><a class="topLinks" href="../auic_corsi/default/">Laurea Magistrale in Architettura - Architettura delle Costruzioni LM4 (MI)</a></li>
