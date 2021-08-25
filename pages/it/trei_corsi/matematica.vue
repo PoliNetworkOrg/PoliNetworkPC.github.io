@@ -281,7 +281,7 @@ export default {
 				  {
                     id: 3,
                     type: "text",
-                    text: ["799€"]
+                    text: ["799,00€"]
                   }
                 ]
               },
@@ -303,12 +303,34 @@ export default {
 				  {
                     id: 3,
                     type: "text",
-                    text: ["809€"]
+                    text: ["809,00€"]
+                  }
+                ]
+              },
+			  {
+                id: 3,
+                celle: [
+                  {
+                    id: 1,
+                    type: "text",
+                    text: [
+                      "HP - PC 15s-fq2003sl"
+                    ]
+                  },
+                  {
+                    id: 2,
+                    type: "link",
+                    text: ["https://www.amazon.it/HP-15s-fq2003sl-Notebook-i7-1165G7-Windows/dp/B08WCDZ73J"]
+                  },
+				  {
+                    id: 3,
+                    type: "text",
+                    text: ["799,99€"]
                   }
                 ]
               },
               {
-                id: 3,
+                id: 4,
                 celle: [
                   {
                     id: 1,
@@ -325,7 +347,7 @@ export default {
 				  {
                     id: 3,
                     type: "text",
-                    text: ["950€"]
+                    text: ["950,00€"]
                   }
                 ]
               }
