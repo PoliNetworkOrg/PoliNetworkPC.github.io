@@ -4,7 +4,7 @@
     <div class="container">
       <NuxtLink class="navbar-brand" :to="localePath('/')">
         <img src="/img/icon.png" style="width: calc(20px + 0.1rem)" />
-        <span>&nbsp;PoliNetwork Events</span>
+        <span>&nbsp;PoliNetwork PC 💻</span>
       </NuxtLink>
       <button
         class="navbar-toggler"
