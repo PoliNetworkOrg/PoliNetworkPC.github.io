@@ -11,5 +11,8 @@ export default {
   'Scuola Design': 'School Design',
   'Scuola ICAT': 'ICAT school',
   'Consigli acquisto PC': 'PC buying advice',
-  'Scegli la tua scuola:': 'Choose your school:'
+  'Scegli la tua scuola:': 'Choose your school:',
+  'ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI': 'URBAN ARCHITECTURE CONSTRUCTION ENGINEERING', // UNUSED
+  'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on ours',
+  'sito web principale': 'main website'
 }
