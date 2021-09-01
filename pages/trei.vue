@@ -1,21 +1,17 @@
 <template>
   <div>
-    <LayoutNavigationBar language="it" />
-
     <div class="container">
       <br />
       <br />
       <br />
 
-      <h1 style="text-align:center;">3I</h1>
+      <h1 style="text-align: center">3I</h1>
 
       <header class="jumbotron my-4 testoCentrale">
         <div class="titoloCCS">
-          <span class="lead">
-            Elenco corsi di studio:
-          </span>
+          <span class="lead"> Elenco corsi di studio: </span>
         </div>
-        <div style="text-align:center;">
+        <div style="text-align: center">
           <ul style="ulCcs">
             <li class="liCcs">
               <a class="topLinks" href="../trei_corsi/generic/"
@@ -116,7 +112,5 @@
         </div>
       </header>
     </div>
-
-    <LayoutFooter language="it" />
   </div>
 </template>

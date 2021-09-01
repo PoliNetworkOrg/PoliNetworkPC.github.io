@@ -50,11 +50,34 @@ export default {
     buildModules: [
     ],
 
-    // Modules: https://go.nuxtjs.dev/config-modules
-    modules: [
-        // https://go.nuxtjs.dev/bootstrap
-    ],
-
+	modules: [
+		'@nuxtjs/i18n',
+		'nuxt-i18n-easy',
+	],
+	i18n: {
+		strategy: 'prefix',
+		langDir: 'locales/',
+		locales: [
+			{
+				code: 'en',
+				iso: 'en-US',
+				file: 'en-US.js',
+				isCatchallLocale: true
+			},
+			{
+				code: 'it',
+				iso: 'it-IT',
+				file: 'it-IT.js'
+			}
+		],
+		defaultLocale: 'it',
+		vueI18n: {
+			fallbackLocale: 'it'
+		}
+	},
+	i18nEasy: {
+		sourceLanguage: 'it',
+	},
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
         babel: {

@@ -2,7 +2,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" :href="'/' + language + '/'">
+            <a class="navbar-brand" :href="'/' + $i18n.locale + '/'">
                 <img src="/img/icon.png" style="width:calc(20px + 0.1rem);">
                 <span>&nbsp;PoliNetwork</span>
             </a>
@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" :href="'/' + language + '/'">
+                        <a class="nav-link" :href="'/' + $i18n.locale + '/'">
                             Home 🏠
                             <span class="sr-only">(current)</span>
                         </a>
@@ -21,8 +21,8 @@
        
 	   
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
+                        <a v-if="$i18n.locale == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
+                        <a v-if="$i18n.locale == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
                     </li>
                     <li class="nav-item">
                         <div style="border:1px solid #00000029; margin:auto; border-radius: 10px;">
@@ -44,14 +44,3 @@
     </nav>
 </template>
 
-<script>
-export default {
-    props: {
-        language:{
-            type:String,
-
-			required:true
-        }
-    }
-}
-</script>

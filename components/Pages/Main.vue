@@ -1,6 +1,6 @@
 <template>
     <div>
-        <LayoutNavigationBar :language="language" />
+ 
 
         <!-- Page Content -->
         <div class="container3">
@@ -43,15 +43,13 @@
             </header>
 
 			<p>Scegli la tua scuola:</p>
-            <SubpagesScuoleComponent  :scuole-link="scuole"  :language="language" />
+            <SubpagesScuoleComponent  :scuole-link="scuole"   />
         </div>
         <!-- /.container -->
 
 
 
-      
-
-        <LayoutFooter :language="language" />
+  
     </div>
 </template>
 

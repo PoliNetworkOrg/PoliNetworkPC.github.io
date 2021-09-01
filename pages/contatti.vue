@@ -2,7 +2,7 @@
 
     <!-- Page Content -->
     <div>
-        <LayoutNavigationBar language="it" />
+
         <div style="padding-top:calc(20px + 0.5vh + 0.5rem);width:100%;">
             <div class="container2">
                 <div class="container6">
@@ -24,7 +24,6 @@
 
         <!-- /.container -->
 
-        <LayoutFooter language="it" />
     </div>
 </template>
 

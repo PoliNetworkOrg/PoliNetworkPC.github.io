@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LayoutNavigationBar :language="language" />
+
 
     <br />
     <br />
@@ -244,7 +244,7 @@
       </a>
     </div>
 
-    <LayoutFooter :language="language" />
+
   </div>
 </template>
 

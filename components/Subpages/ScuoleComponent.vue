@@ -13,10 +13,10 @@
                                     <div>
                                         <h1 class="scuole">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 Scuola AUIC
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 AUIC School
                                             </span>
                                         </h1>
@@ -26,10 +26,10 @@
                                     <div>
                                         <h5 class="scuoleTitolo">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 URBAN ARCHITECTURE CONSTRUCTION ENGINEERING
                                             </span>
                                         </h5>
@@ -50,10 +50,10 @@
                                     <div>
                                         <h1 class="scuole">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 Scuola 3I
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 3I School
                                             </span>
                                         </h1>
@@ -63,10 +63,10 @@
                                     <div>
                                         <h5 class="scuoleTitolo">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 INDUSTRIAL AND INFORMATION ENGINEERING
                                             </span>
                                         </h5>
@@ -88,10 +88,10 @@
                                     <div>
                                         <h1 class="scuole">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 Scuola ICAT
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 ICAT School
                                             </span>
                                         </h1>
@@ -101,10 +101,10 @@
                                     <div>
                                         <h5 class="scuoleTitolo">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 CIVIL, ENVIRONMENTAL AND TERRITORIAL ENGINEERING
                                             </span>
                                         </h5>
@@ -125,10 +125,10 @@
                                 <div>
                                     <div>
                                         <h1 class="scuole">
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 Scuola Design
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 Design School
                                             </span>
                                         </h1>
@@ -138,10 +138,10 @@
                                     <div>
                                         <h5 class="scuoleTitolo">
 
-                                            <span v-if="language=='it'">
+                                            <span v-if="$i18n.locale=='it'">
                                                 MODA, INTERNI, COMUNICAZIONE, PRODOTTO
                                             </span>
-                                            <span v-if="language=='en'">
+                                            <span v-if="$i18n.locale=='en'">
                                                 FASHION, INTERIORS, COMMUNICATION, PRODUCT
                                             </span>
                                         </h5>
@@ -157,21 +157,17 @@
     </div>
 </template>
 
+
 <script>
 export default {
     props: {
         scuoleLink:{
             type:Object,
             default : null
-        },
-        language:{
-          type:String,
-          required:true
         }
     }
 }
 </script>
-
 <style>
 
     .scuoleTitolo {
