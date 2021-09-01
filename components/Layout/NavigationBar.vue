@@ -21,8 +21,7 @@
        
 	   
                     <li class="nav-item">
-                        <a v-if="$i18n.locale == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
-                        <a v-if="$i18n.locale == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
+                        <a  class="nav-link" :href="'/' + $i18n.locale + '/contatti/'">{{$t('Contatti')}} 💬</a>
                     </li>
                     <li class="nav-item">
                         <div style="border:1px solid #00000029; margin:auto; border-radius: 10px;">
