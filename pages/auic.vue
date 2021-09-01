@@ -1,6 +1,6 @@
 <template>
     <div>
-        <LayoutNavigationBar language="it" />
+       
 
         <div class="container">
 
@@ -40,6 +40,6 @@
             
         </div>
 
-        <LayoutFooter language="it" />
+       
     </div>
 </template>
