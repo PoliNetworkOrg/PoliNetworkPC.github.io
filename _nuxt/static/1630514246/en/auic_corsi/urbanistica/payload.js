@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/auic_corsi/urbanistica", {data:[{}],fetch:{},mutations:void 0});

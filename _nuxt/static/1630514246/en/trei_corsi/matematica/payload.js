@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/en/trei_corsi/matematica", {data:[{}],fetch:{},mutations:void 0});
