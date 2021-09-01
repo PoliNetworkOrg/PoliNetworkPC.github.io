@@ -16,8 +16,7 @@
       >
         <div style="text-align: center">
           <h2 style="font-size: calc(4px + 1.27rem + 0.77vw)">
-            <span v-if="$i18n.locale == 'it'">Consigli acquisto PC</span>
-            <span v-if="$i18n.locale == 'en'">Buying advices for PC</span>
+            <span  >{{$t('Consigli acquisto PC')}}</span>
           </h2>
           <h5 style="font-size: calc(1px + 1.1rem + 0.6vw)">
             <a
@@ -47,15 +46,8 @@
                   text-align: center;
                 "
               >
-                <span v-if="$i18n.locale == 'it'">
-                  📌 Questo sito mira ad essere il più possibile di aiuto agli
-                  studenti che si affacciano all'acquisto di un computer per i
-                  propri studi (e non solo)
-                </span>
-                <span v-if="$i18n.locale == 'en'">
-                  On this page you can consult the candidates of the student
-                  representation lists (and the relative programs) in the
-                  elections of May 2021 🗳
+                <span >
+                  📌 {{$t('Questo sito mira ad essere il più possibile di aiuto agli studenti che si affacciano all\'acquisto di un computer per i propri studi (e non solo)')}}
                 </span>
               </p>
             </div>
@@ -63,7 +55,7 @@
         </div>
       </header>
 
-      <p>Scegli la tua scuola:</p>
+      <p>{{$t('Scegli la tua scuola:')}}</p>
       <SubpagesScuoleComponent :scuole-link="scuole" />
     </div>
     <!-- /.container -->

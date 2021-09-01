@@ -9,5 +9,7 @@ export default {
   'Scuola 3I': 'Scuola 3I',
   'Scuola AUIC': 'Scuola AUIC',
   'Scuola Design': 'Scuola Design',
-  'Scuola ICAT': 'Scuola ICAT'
+  'Scuola ICAT': 'Scuola ICAT',
+  'Consigli acquisto PC': 'Consigli acquisto PC',
+  'Scegli la tua scuola:': 'Scegli la tua scuola:'
 }
