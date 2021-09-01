@@ -1,5 +1,5 @@
 <template>
     <div>
-        <PagesMain language="it" />
+        <PagesMain  />
     </div>
 </template>

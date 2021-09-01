@@ -238,8 +238,8 @@
           class="lead container3"
           style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);"
         >
-          <span v-if="language == 'it'">🔙 Torna alla scuola</span>
-          <span v-if="language == 'en'">🔙 Back to school</span>
+          <span v-if="$i18n.locale == 'it'">🔙 Torna alla scuola</span>
+          <span v-if="$i18n.locale == 'en'">🔙 Back to school</span>
         </div>
       </a>
     </div>
