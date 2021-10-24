@@ -23,27 +23,27 @@
                 >Ingegneria Aerospaziale</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria dell'Automazione</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Biomedica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Chimica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Elettrica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Elettronica</a
               >
@@ -53,12 +53,12 @@
                 >Ingegneria Energetica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Fisica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Gestionale</a
               >
@@ -68,12 +68,12 @@
                 >Ingegneria Informatica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/matematica/"
                 >Ingegneria Matematica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria dei Materiali e delle Nanotecnologie</a
               >
@@ -83,27 +83,27 @@
                 >Ingegneria Meccanica</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria Nucleare</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Ingegneria delle Telecomunicazioni</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Music and Acoustic Engineering</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Food Engineering</a
               >
             </li>
-            <li class="liCcs">
+            <li class="liCcs liCCsNotYetPresent">
               <a class="topLinks" href="../trei_corsi/default/"
                 >Mobility Engineering</a
               >
