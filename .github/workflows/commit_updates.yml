@@ -51,11 +51,10 @@ jobs:
       - name: 👨🏻‍💻 Install dependencies (6)
         run: npm install vue-template-compiler@2.7.1
 
-      - name: 👨‍🏭️ Generate
-        run: npm run generate
-
       - name: commit
         run: | 
+          git config --global user.email "github_bot@github.com"
+          git config --global user.name "Github action"
           git add .
           git commit -m 'push files'
           git push
