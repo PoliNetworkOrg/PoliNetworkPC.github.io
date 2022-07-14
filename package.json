@@ -19,7 +19,7 @@
         "nuxt-i18n-easy": "^1.5.1",
         "uuid": "^8.3.2",
         "vue": "^2.7.4",
-        "vue-server-renderer": "^2.7.4",
+        "vue-server-renderer": "^2.7.5",
         "vue-template-compiler": "^2.7.4"
     },
     "devDependencies": {
