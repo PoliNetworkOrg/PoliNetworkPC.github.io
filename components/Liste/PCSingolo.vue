@@ -1,53 +1,77 @@
 <template>
   <div>
-
-
     <br />
     <br />
 
-    <div class="intro white" style="text-align: center;">
-      <div style="width:100%;display:ruby-base-container;text-align: center; ">
-        <div v-if="this.dataLista.notFound == true">
+    <div class="intro white" style="text-align: center">
+      <div
+        style="width: 100%; display: ruby-base-container; text-align: center"
+      >
+        <div v-if="this.dataLista != null && this.dataLista.notFound == true">
           <img
             src="/static/img/corsi/not-found.png"
-            style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;"
+            style="
+              width: calc(15px + 4vw + 5rem);
+              padding: 2px;
+              text-align: center;
+            "
           />
         </div>
-        <div v-else style="display: flex;flex-wrap: wrap;">
-          <div
-            v-for="itemphoto in this.dataLista.imageUrl"
-            :key="itemphoto"
-            style="display: flex;flex: 1 1 25%;padding: 5px;max-width: 100%;"
-          >
-            <img
-              :src="itemphoto"
-              style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;margin:auto;"
-            />
+        <div v-else style="display: flex; flex-wrap: wrap">
+          <div v-if="this.dataLista != null">
+            <div
+              v-for="itemphoto in this.dataLista.imageUrl"
+              :key="itemphoto"
+              style="
+                display: flex;
+                flex: 1 1 25%;
+                padding: 5px;
+                max-width: 100%;
+              "
+            >
+              <img
+                :src="itemphoto"
+                style="
+                  width: calc(15px + 4vw + 5rem);
+                  padding: 2px;
+                  text-align: center;
+                  margin: auto;
+                "
+              />
+            </div>
           </div>
         </div>
       </div>
-      <div class="container2 wow animated fadeInUp" style="overflow: auto;">
+      <div class="container2 wow animated fadeInUp" style="overflow: auto">
         <h2
-          style="color:black; font-size:calc(7px + 2.5vw + 0.4rem); padding:0.2rem;"
+          style="
+            color: black;
+            font-size: calc(7px + 2.5vw + 0.4rem);
+            padding: 0.2rem;
+          "
         >
-          <span v-if="this.dataLista.notFound == true">
+          <span
+            v-if="this.dataLista != null && this.dataLista.notFound == true"
+          >
             Corso non ancora disponibile
           </span>
           <span v-else>
-            {{ this.dataLista.name }}
+            <div v-if="this.dataLista != null">
+              {{ this.dataLista.name }}
+            </div>
           </span>
-          <div style="padding:0.4rem;"></div>
+          <div style="padding: 0.4rem"></div>
         </h2>
-        <div v-if="this.dataLista.notFound == true">
-          <div style="padding:0.2rem;"></div>
-          <div style="padding:0.2rem;">
-            <span style="font-size:calc(0.8rem + 0.5vw);">
+        <div v-if="this.dataLista != null && this.dataLista.notFound == true">
+          <div style="padding: 0.2rem"></div>
+          <div style="padding: 0.2rem">
+            <span style="font-size: calc(0.8rem + 0.5vw)">
               Il corso da te scelto non è ancora presente sul nostro sito.
             </span>
           </div>
-          <div style="padding:0.2rem;"></div>
-          <div style="padding:0.2rem;">
-            <span style="font-size:calc(0.7rem + 0.3vw);">
+          <div style="padding: 0.2rem"></div>
+          <div style="padding: 0.2rem">
+            <span style="font-size: calc(0.7rem + 0.3vw)">
               Visita il nostro gruppo telegram dedicato ai consigli di acquisto
               di PC, visita i suggerimenti generici per la tua scuola e visita i
               suggerimenti per altri corsi della tua scuola presenti sul nostro
@@ -56,60 +80,57 @@
           </div>
         </div>
         <div v-else>
-          <p v-for="itemdesc in this.dataLista.desc" :key="itemdesc">
-            {{ itemdesc }}
-          </p>
+          <div v-if="this.dataLista != null">
+            <p v-for="itemdesc in this.dataLista.desc" :key="itemdesc">
+              {{ itemdesc }}
+            </p>
+          </div>
         </div>
 
         <!--- Buttons -->
-        <div style="padding:1rem;">
+        <div style="padding: 1rem">
           <div
-            v-if="this.dataLista.notFound == true"
-            style="width:100%;text-align: center; "
+            v-if="this.dataLista != null && this.dataLista.notFound == true"
+            style="width: 100%; text-align: center"
           >
-            <div style="display:ruby-base-container;">
+            <div style="display: ruby-base-container">
               <a
                 href="https://t.me/joinchat/oD7NGpl0W6VjYmI0"
-                style="margin:auto;"
+                style="margin: auto"
               >
                 <div>
                   <button
-                    style="border-radius:5px;padding:0.5rem;margin:0.2rem;"
+                    style="border-radius: 5px; padding: 0.5rem; margin: 0.2rem"
                   >
-                    <table style="width:100%;">
+                    <table style="width: 100%">
                       <tr>
                         <td>
-                          <img src="/static/img/tg.svg" style="width:1.5rem;" />
+                          <img src="/static/img/tg.svg" style="width: 1.5rem" />
                         </td>
-                        <td>
-                          &nbsp;
-                        </td>
-                        <td>
-                          Gruppo telegram
-                        </td>
+                        <td>&nbsp;</td>
+                        <td>Gruppo telegram</td>
                       </tr>
                     </table>
                   </button>
                 </div>
               </a>
             </div>
-            <div style="display:ruby-base-container;">
-              <a href="../generic/" style="margin:auto;">
+            <div style="display: ruby-base-container">
+              <a href="../generic/" style="margin: auto">
                 <div>
                   <button
-                    style="border-radius:5px;padding:0.5rem;margin:0.2rem;"
+                    style="border-radius: 5px; padding: 0.5rem; margin: 0.2rem"
                   >
-                    <table style="width:100%;">
+                    <table style="width: 100%">
                       <tr>
                         <td>
-                          <img src="/static/img/puzzle.png" style="width:1.5rem;" />
+                          <img
+                            src="/static/img/puzzle.png"
+                            style="width: 1.5rem"
+                          />
                         </td>
-                        <td>
-                          &nbsp;
-                        </td>
-                        <td>
-                          Consigli generici per la tua scuola
-                        </td>
+                        <td>&nbsp;</td>
+                        <td>Consigli generici per la tua scuola</td>
                       </tr>
                     </table>
                   </button>
@@ -120,29 +141,35 @@
         </div>
         <div
           v-if="
-            this.dataLista.buttons != null && this.dataLista.buttons.length > 0
+            this.dataLista.buttons != null &&
+            this.dataLista != null &&
+            this.dataLista.buttons.length > 0
           "
         >
           <div
             v-for="itembutton in this.dataLista.buttons"
             :key="itembutton.id"
-            style="width:100%;display:ruby-base-container;text-align: center; "
+            style="
+              width: 100%;
+              display: ruby-base-container;
+              text-align: center;
+            "
           >
-            <a :href="itembutton.linkpage" style="margin:auto;">
+            <a :href="itembutton.linkpage" style="margin: auto">
               <div>
-                <button style="border-radius:5px;padding:0.5rem;margin:0.2rem;">
-                  <table style="width:100%;">
+                <button
+                  style="border-radius: 5px; padding: 0.5rem; margin: 0.2rem"
+                >
+                  <table style="width: 100%">
                     <tr>
                       <td
                         v-for="itemimage in itembutton.linkimage"
                         :key="itemimage"
-                        style="padding-top:0.1rem;"
+                        style="padding-top: 0.1rem"
                       >
-                        <img :src="require(itemimage)" style="width:2rem;" />
+                        <img :src="require(itemimage)" style="width: 2rem" />
                       </td>
-                      <td>
-                        &nbsp;
-                      </td>
+                      <td>&nbsp;</td>
                       <td>
                         {{ itembutton.text }}
                       </td>
@@ -158,21 +185,29 @@
     </div>
     <!-- /.intro -->
 
-    <div v-if="dataLista.tabella != null"><ListeTabella :tabella="dataLista.tabella" /></div>
+    <div v-if="dataLista != null && dataLista.tabella != null">
+      <ListeTabella :tabella="dataLista.tabella" />
+    </div>
 
-    <div v-if="dataLista.fasce != null && dataLista.fasce.length > 0">
-      <div style="padding:0.8rem;"></div>
+    <div
+      v-if="
+        dataLista != null &&
+        dataLista.fasce != null &&
+        dataLista.fasce.length > 0
+      "
+    >
+      <div style="padding: 0.8rem"></div>
 
-      <div class="section" id="our-info">
+      <div v-if="dataLista != null" class="section" id="our-info">
         <LayoutFrame v-for="item in dataLista.fasce" :key="item.id">
           <div
             class="container2"
-            style="max-width: 100%;margin:auto; width:100%;"
+            style="max-width: 100%; margin: auto; width: 100%"
           >
             <hr />
 
-            <div style="padding:5px;"></div>
-            <p class="container2" style="font-size:calc(1rem + 0.2vw + 1px);">
+            <div style="padding: 5px"></div>
+            <p class="container2" style="font-size: calc(1rem + 0.2vw + 1px)">
               {{ item.prezzo }}
             </p>
             <div class="row container4">
@@ -184,25 +219,44 @@
               >
                 <a
                   :href="item2.link"
-                  style="text-decoration: none;color:black;border:1px solid #0000003c;padding: calc(1px + 0.2rem);margin: 0px; border-radius:calc(10px + 1rem);width: 100%;"
+                  style="
+                    text-decoration: none;
+                    color: black;
+                    border: 1px solid #0000003c;
+                    padding: calc(1px + 0.2rem);
+                    margin: 0px;
+                    border-radius: calc(10px + 1rem);
+                    width: 100%;
+                  "
                 >
                   <div>
-                    <div style="padding-top:3px;text-align:center;">
+                    <div style="padding-top: 3px; text-align: center">
                       <h4>{{ item2.text }}</h4>
                     </div>
                     <div
                       class="function-text"
-                      style="text-align:left;padding:calc(0.5vw); margin-bottom:0.2rem;"
+                      style="
+                        text-align: left;
+                        padding: calc(0.5vw);
+                        margin-bottom: 0.2rem;
+                      "
                     >
                       <div
-                        style="padding-left:calc(1rem + 3.3vw);padding-right:calc(1rem + 3.3vw);text-align:center;"
+                        style="
+                          padding-left: calc(1rem + 3.3vw);
+                          padding-right: calc(1rem + 3.3vw);
+                          text-align: center;
+                        "
                       >
                         <img
-                          style="width:100%;max-width:calc(10rem + 10px + 5vw);"
+                          style="
+                            width: 100%;
+                            max-width: calc(10rem + 10px + 5vw);
+                          "
                           :src="item2.imgurl"
                         />
                       </div>
-                      <div style="padding-left:1rem;">
+                      <div style="padding-left: 1rem">
                         <ul>
                           <li v-for="item3 in item2.car" :key="item3.id">
                             {{ item3 }}
@@ -220,31 +274,36 @@
       <!-- our-info -->
     </div>
 
-    <div style="padding:1.6rem;"></div>
+    <div style="padding: 1.6rem"></div>
     <LayoutHorizontalLine />
-    <div style="padding:1.7rem;"></div>
+    <div style="padding: 1.7rem"></div>
 
     <div>
-      <div class="container2 wow animated fadeInUp" style="text-align:center;">
+      <div class="container2 wow animated fadeInUp" style="text-align: center">
         Vuoi suggerire delle modifiche a questa pagina?<br />Scrivi ai nostri
         <a href="./../../contatti/">contatti</a> o apri una issue/pr sul
         <a href="https://github.com/PoliNetworkPC/PoliNetworkPC.github.io"
           >progetto github</a
         >
       </div>
-      <div style="padding:1rem;"></div>
-      <a :href="this.dataLista.scuolalink">
-        <div
-          class="lead container3"
-          style="text-align:center;width:100%;padding-bottom:1.5rem;font-size:calc(1rem + 1vw);"
-        >
-          <span v-if="$i18n.locale == 'it'">🔙 Torna alla scuola</span>
-          <span v-if="$i18n.locale == 'en'">🔙 Back to school</span>
-        </div>
-      </a>
+      <div style="padding: 1rem"></div>
+      <div v-if="this.dataLista != null">
+        <a :href="this.dataLista.scuolalink">
+          <div
+            class="lead container3"
+            style="
+              text-align: center;
+              width: 100%;
+              padding-bottom: 1.5rem;
+              font-size: calc(1rem + 1vw);
+            "
+          >
+            <span v-if="$i18n.locale == 'it'">🔙 Torna alla scuola</span>
+            <span v-if="$i18n.locale == 'en'">🔙 Back to school</span>
+          </div>
+        </a>
+      </div>
     </div>
-
-
   </div>
 </template>
 
@@ -253,13 +312,13 @@ export default {
   props: {
     dataLista: {
       type: Object,
-      default: null
+      default: null,
     },
     language: {
       type: String,
-      required: true
-    }
-  }
+      required: true,
+    },
+  },
 };
 </script>
 
