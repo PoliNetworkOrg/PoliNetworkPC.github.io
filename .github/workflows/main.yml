@@ -34,24 +34,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: 👨🏻‍💻 Install dependencies (1)
-        run: npm cache verify
-        
-      - name: 👨🏻‍💻 Install dependencies (2)
-        run:  | 
-           (npm ci) || true
-           (npm audit fix --force ) || true
-           (npm install) || true
-           
-        
-      - name: commit
-        run: | 
-          git config --global user.email "github_bot@github.com"
-          git config --global user.name "Github action"
-          git add .
-          (git commit -m 'push files') || true
-          git pull
-          (git push) || true
 
       - name: 👨‍🏭️ Generate
         run: npm run generate
