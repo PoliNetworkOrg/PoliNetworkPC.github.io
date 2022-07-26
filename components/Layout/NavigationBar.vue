@@ -2,7 +2,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <NuxtLink class="navbar-brand" :to="'/'">
+      <NuxtLink class="navbar-brand" :to="localePath('/')">
         <img src="/static/img/icon.png" style="width: calc(20px + 0.1rem)" />
         <span>&nbsp;PoliNetwork PC 💻</span>
       </NuxtLink>
@@ -27,7 +27,7 @@
           </li>
 
           <li class="nav-item">
-            <NuxtLink :to="'/' + $i18n.locale + '/contact-us'" class="nav-link"
+            <NuxtLink :to="localePath('contact-us')" class="nav-link"
               >{{ $t("Contatti") }} 💬</NuxtLink
             >
           </li>
@@ -42,12 +42,12 @@
               <table style="display: inline">
                 <tr>
                   <td>
-                    <NuxtLink :to="'/it'"
+                    <NuxtLink :to="switchLocalePath('it')"
                       ><img src="/static/img/it.png" style="width: 35px; padding: 6px"
                     /></NuxtLink>
                   </td>
                   <td>
-                    <NuxtLink :to="'/en'"
+                    <NuxtLink :to="switchLocalePath('en')"
                       ><img src="/static/img/en.png" style="width: 35px; padding: 6px"
                     /></NuxtLink>
                   </td>
