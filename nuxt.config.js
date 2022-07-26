@@ -1,24 +1,40 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'PoliNetworkPC',
-    htmlAttrs: {
-      lang: 'en'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
+	title: 'PoliNetworkPC 💻',
+	htmlAttrs: {
+		lang: 'en'
+	},
+	meta: [
+		{ charset: 'utf-8' },
+		{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+		{ hid: 'description', name: 'description', content: '' }
+	],
+	link: [
+		{ rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' }
+	],
+	script: [
+		{
+			src: "/jquery/jquery.min.js",
+			type: "text/javascript"
+		},
+		{
+			src: "/js/bootstrap.bundle.min.js",
+			type: "text/javascript"
+		},
+		{
+			src: "/js/custom.js",
+			type: "text/javascript"
+		},
+	]
+},
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-  ],
+	'~/assets/bootstrap/bootstrap.css',
+	'~/assets/bootstrap/style.css',
+	'~/assets/css/style.css'
+],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
