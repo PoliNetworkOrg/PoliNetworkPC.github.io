@@ -39,9 +39,9 @@ jobs:
         
       - name: 👨🏻‍💻 Install dependencies (2)
         run:  | 
-           npm ci
-           npm audit fix --force 
-           npm install
+           (npm ci) || true
+           (npm audit fix --force ) || true
+           (npm install) || true
            
         
       - name: commit
