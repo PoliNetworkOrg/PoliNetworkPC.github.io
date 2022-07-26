@@ -282,7 +282,7 @@
       <div class="container2 wow animated fadeInUp" style="text-align: center">
         Vuoi suggerire delle modifiche a questa pagina?<br />Scrivi ai nostri
         <a href="./../../contatti/">contatti</a> o apri una issue/pr sul
-        <a href="https://github.com/PoliNetworkPC/PoliNetworkPC.github.io"
+        <a href="https://github.com/PoliNetworkOrg/PoliNetworkPC.github.io"
           >progetto github</a
         >
       </div>
