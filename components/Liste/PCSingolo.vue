@@ -9,7 +9,7 @@
       <div style="width:100%;display:ruby-base-container;text-align: center; ">
         <div v-if="this.dataLista.notFound == true">
           <img
-            src="/img/corsi/not-found.png"
+            src="/static/img/corsi/not-found.png"
             style="width:calc(15px + 4vw + 5rem); padding:2px;text-align:center;"
           />
         </div>
@@ -79,7 +79,7 @@
                     <table style="width:100%;">
                       <tr>
                         <td>
-                          <img src="/img/tg.svg" style="width:1.5rem;" />
+                          <img src="/static/img/tg.svg" style="width:1.5rem;" />
                         </td>
                         <td>
                           &nbsp;
@@ -102,7 +102,7 @@
                     <table style="width:100%;">
                       <tr>
                         <td>
-                          <img src="/img/puzzle.png" style="width:1.5rem;" />
+                          <img src="/static/img/puzzle.png" style="width:1.5rem;" />
                         </td>
                         <td>
                           &nbsp;
@@ -138,7 +138,7 @@
                         :key="itemimage"
                         style="padding-top:0.1rem;"
                       >
-                        <img :src="itemimage" style="width:2rem;" />
+                        <img :src="require(itemimage)" style="width:2rem;" />
                       </td>
                       <td>
                         &nbsp;

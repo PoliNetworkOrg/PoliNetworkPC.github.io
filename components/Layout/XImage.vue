@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img :src="imageUrl" :class="classParam">
+        <img :src="require(imageUrl)" :class="classParam">
     </div>
 </template>
 

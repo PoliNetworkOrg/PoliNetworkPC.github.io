@@ -15,7 +15,7 @@ export default {
 "È sconsigliato il Mac ed è privilegiato Windows solo per una questione di compatibilità con archgis (che sarà necessario scaricare perché spiegano su quello) i Mac lasciamoli ai grafici, noi non lo siamo 😂",
 "Mentre per la grandezza io direi di rimanere tra i 14 e 15 pollici, più piccoli si rischia di diventare ciechi e gobbi e più di 15 pollici di spaccarsi la schiena (provato sulla mia pelle)",
 "Firmato: una rappresentante di urbanistica"],
-         	imageUrl:["/img/corsi/urbanistica.png"],
+         	imageUrl:["/static/img/corsi/urbanistica.png"],
             fasce:[		]
                 
             

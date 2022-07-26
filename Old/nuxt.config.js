@@ -14,7 +14,7 @@ export default {
             { hid: 'description', name: 'description', content: '' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' }
+            { rel: 'icon', type: 'image/x-icon', href: '/static/img/icon.png' }
         ],
         script: [
             {
@@ -34,9 +34,9 @@ export default {
 
     // Global CSS: https://go.nuxtjs.dev/config-css
     css: [
-        '~/assets/bootstrap/bootstrap.css',
-        '~/assets/bootstrap/style.css',
-        '~/assets/css/style.css'
+        '/static/img/bootstrap/bootstrap.css',
+        '/static/img/bootstrap/style.css',
+        '/static/img/css/style.css'
     ],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

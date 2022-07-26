@@ -15,13 +15,13 @@ export default {
                 {
                     id:1, text:"Informatica",
                     linkpage: "./../informatica/", 
-                    linkimage:["/img/corsi/pc.png"]
+                    linkimage:["/static/img/corsi/pc.png"]
                 },
                 {
                     id:2,
                     text: "Areospaziale, Energetica, Meccanica",
                     linkpage: "./../aero-energ-mecc/", 
-                    linkimage:["/img/corsi/aerospaziale.jpg","/img/corsi/energetica.png","/img/corsi/meccanica.png"]
+                    linkimage:["/static/img/corsi/aerospaziale.jpg","/static/img/corsi/energetica.png","/static/img/corsi/meccanica.png"]
                 }
             ]
         }

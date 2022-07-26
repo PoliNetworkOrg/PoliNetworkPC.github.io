@@ -1,7 +1,7 @@
 <template>
     <div>
 		    <LayoutNavigationBar   />
-        <Nuxt />
+        <slot />
 		    <LayoutFooter />
     </div>
 </template>

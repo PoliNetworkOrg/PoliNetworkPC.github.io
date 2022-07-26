@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+
 	target: 'static',
 	head: {
 		title: 'PoliNetworkPC 💻',
@@ -14,7 +15,7 @@ export default defineNuxtConfig({
 			{ hid: 'description', name: 'description', content: '' }
 		],
 		link: [
-			{ rel: 'icon', type: 'image/x-icon', href: '/img/icon.png' }
+			{ rel: 'icon', type: 'image/x-icon', href: '/static/img/icon.png' }
 		],
 		script: [
 			{
@@ -31,10 +32,10 @@ export default defineNuxtConfig({
 			},
 		]
 	},
-	modules: [ '@nuxtjs/i18n-edge'],
+	modules: ['@intlify/nuxt3'],
 	intlify: {
-		
-		localeDir: 'locales/', 
+		vueI18n:{},
+		localeDir: 'locales', 
 
 	  },
 
@@ -48,6 +49,5 @@ export default defineNuxtConfig({
 	  // Auto import components: https://go.nuxtjs.dev/config-components
 	  components: true,
 
-	
 
 })

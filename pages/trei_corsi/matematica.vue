@@ -12,7 +12,7 @@ export default {
         name: "Matematica",
         scuolalink: "../../trei/",
         desc: [],
-        imageUrl: ["/img/corsi/matematica.png"],
+        imageUrl: ["/static/img/corsi/matematica.png"],
         tabella: [
           {
             id: 1,
