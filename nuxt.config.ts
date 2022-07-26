@@ -31,7 +31,7 @@ export default defineNuxtConfig({
 			},
 		]
 	},
-	modules: [ '@intlify/nuxt3'],
+	modules: [ '@nuxtjs/i18n-edge'],
 	intlify: {
 		
 		localeDir: 'locales/', 
