@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/auic_corsi/default", {data:[{}],fetch:{},mutations:void 0});

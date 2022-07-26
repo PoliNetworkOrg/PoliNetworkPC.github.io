@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/trei_corsi/aero-energ-mecc", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,275 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-11102e5c.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/auic.vue",
+      "pages/auic_corsi/default.vue",
+      "pages/auic_corsi/generic.vue",
+      "pages/auic_corsi/urbanistica.vue",
+      "pages/contact-us.vue",
+      "pages/design.vue",
+      "pages/design_corsi/default.vue",
+      "pages/design_corsi/generic.vue",
+      "pages/icat.vue",
+      "pages/icat_corsi/default.vue",
+      "pages/icat_corsi/generic.vue",
+      "pages/index.vue",
+      "pages/trei.vue",
+      "pages/trei_corsi/aero-energ-mecc.vue",
+      "pages/trei_corsi/default.vue",
+      "pages/trei_corsi/generic.vue",
+      "pages/trei_corsi/informatica.vue",
+      "pages/trei_corsi/matematica.vue",
+      "middleware/redirect.js",
+      "virtual:nuxt:/home/runner/work/PoliNetworkPC.github.io/PoliNetworkPC.github.io/.nuxt/error-component.mjs",
+      "layouts/default.vue",
+      "layouts/error.vue"
+    ],
+    "css": [
+      "entry.6f77290b.css"
+    ],
+    "assets": [
+      "not-found.1c617fcc.png",
+      "tg.eb994ab8.svg",
+      "puzzle.f0c0e76e.png"
+    ]
+  },
+  "virtual:nuxt:/home/runner/work/PoliNetworkPC.github.io/PoliNetworkPC.github.io/.nuxt/error-component.mjs": {
+    "file": "error-component-41107a33.mjs",
+    "src": "virtual:nuxt:/home/runner/work/PoliNetworkPC.github.io/PoliNetworkPC.github.io/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "pages/auic.vue": {
+    "file": "auic-9b914619.mjs",
+    "src": "pages/auic.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/auic_corsi/default.vue": {
+    "file": "default-18a62d52.mjs",
+    "src": "pages/auic_corsi/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_PCSingolo-bffb6195.mjs": {
+    "file": "PCSingolo-bffb6195.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/auic_corsi/generic.vue": {
+    "file": "generic-f9ab4b7a.mjs",
+    "src": "pages/auic_corsi/generic.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/auic_corsi/urbanistica.vue": {
+    "file": "urbanistica-4ce3f5a3.mjs",
+    "src": "pages/auic_corsi/urbanistica.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/contact-us.vue": {
+    "file": "contact-us-2c42b950.mjs",
+    "src": "pages/contact-us.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/design.vue": {
+    "file": "design-f6060373.mjs",
+    "src": "pages/design.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/design_corsi/default.vue": {
+    "file": "default-03093aa3.mjs",
+    "src": "pages/design_corsi/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/design_corsi/generic.vue": {
+    "file": "generic-73f409e6.mjs",
+    "src": "pages/design_corsi/generic.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/icat.vue": {
+    "file": "icat-7524d61b.mjs",
+    "src": "pages/icat.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/icat_corsi/default.vue": {
+    "file": "default-4774a4e6.mjs",
+    "src": "pages/icat_corsi/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/icat_corsi/generic.vue": {
+    "file": "generic-886f0b93.mjs",
+    "src": "pages/icat_corsi/generic.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-3d1da8c0.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei.vue": {
+    "file": "trei-e32e1769.mjs",
+    "src": "pages/trei.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei_corsi/aero-energ-mecc.vue": {
+    "file": "aero-energ-mecc-1ba84a45.mjs",
+    "src": "pages/trei_corsi/aero-energ-mecc.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei_corsi/default.vue": {
+    "file": "default-039d43ab.mjs",
+    "src": "pages/trei_corsi/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei_corsi/generic.vue": {
+    "file": "generic-792fe3c2.mjs",
+    "src": "pages/trei_corsi/generic.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei_corsi/informatica.vue": {
+    "file": "informatica-de4551a8.mjs",
+    "src": "pages/trei_corsi/informatica.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/trei_corsi/matematica.vue": {
+    "file": "matematica-80c509e9.mjs",
+    "src": "pages/trei_corsi/matematica.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_PCSingolo-bffb6195.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "middleware/redirect.js": {
+    "file": "redirect-fb76f953.mjs",
+    "src": "middleware/redirect.js",
+    "isDynamicEntry": true
+  },
+  "layouts/default.vue": {
+    "file": "default-44ab2499.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_NavigationBar-0603f1ff.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "default.872213bb.css"
+    ]
+  },
+  "_NavigationBar-0603f1ff.mjs": {
+    "file": "NavigationBar-0603f1ff.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "assets": [
+      "icon.24687d1d.png",
+      "it.604df884.png",
+      "en.e12cd2d1.png"
+    ]
+  },
+  "layouts/error.vue": {
+    "file": "error-592dccf1.mjs",
+    "src": "layouts/error.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_NavigationBar-0603f1ff.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error.69ead182.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "error-404-18ed4e22.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-404.314f7075.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "error-500-a07b9f19.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "error-500.4e3461e5.css"
+    ]
+  }
+}

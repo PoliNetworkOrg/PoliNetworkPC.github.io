@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/icat", {data:[{}],fetch:{},mutations:void 0});

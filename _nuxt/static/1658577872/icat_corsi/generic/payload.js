@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/icat_corsi/generic", {data:[{}],fetch:{},mutations:void 0});
