@@ -26,14 +26,6 @@ jobs:
           node-version: ${{ matrix.node }}
           check-latest: true
 
-      - name: 📦 Cache node_modules
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
       - name: npm install
         run: npm install
 
