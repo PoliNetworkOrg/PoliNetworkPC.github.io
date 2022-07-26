@@ -47,7 +47,6 @@ jobs:
            npm install
            (npm i vue-template-compiler@latest --save) || true
            (npm i vue@latest --save) || true
-           (npm i vue-server-renderer@latest --save) || true
            
         
       - name: commit
