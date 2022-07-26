@@ -34,6 +34,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      - name: npm install
+        run: npm install
 
       - name: 👨‍🏭️ Generate
         run: npm run generate
