@@ -1,5 +1,5 @@
 {
-  "name": "PoliNetworkPC",
+  "name": "PoliNetwork PC",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,6 @@
   },
   "dependencies": {
     "@nuxtjs/i18n": "^7.2.2",
-    "bootstrap": "^4.6.1",
-    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "vue": "^3.2.37",
