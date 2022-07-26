@@ -7,8 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@intlify/nuxt3": "^0.2.3",
     "nuxt": "3.0.0-rc.6"
   },
-  "dependencies": {}
+  "dependencies": {
+	"@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge"
+  }
 }
