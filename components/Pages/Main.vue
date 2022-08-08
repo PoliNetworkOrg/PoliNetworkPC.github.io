@@ -21,13 +21,13 @@
           <h5 style="font-size: calc(1px + 1.1rem + 0.6vw)">
             <a
               v-if="$i18n.locale == 'it'"
-              href="https://polinetwork.github.io/it/"
+              href="https://polinetwork.org/it/"
             >
               by PoliNetwork
             </a>
             <a
               v-if="$i18n.locale == 'en'"
-              href="https://polinetwork.github.io/en/"
+              href="https://polinetwork.org/en/"
             >
               by PoliNetwork
             </a>
