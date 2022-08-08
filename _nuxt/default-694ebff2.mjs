@@ -1,0 +1,1 @@
+import{_ as o}from"./PCSingolo-6052dfb3.mjs";import{a,o as n,b as s,f as r}from"./entry-4661501f.mjs";const c={data(){return{items:{notFound:!0,scuolalink:"../../auic/",buttons:[]}}}};function _(i,l,u,p,t,d){const e=o;return n(),s("div",null,[r(e,{"data-lista":t.items,language:"it"},null,8,["data-lista"])])}var x=a(c,[["render",_]]);export{x as default};
