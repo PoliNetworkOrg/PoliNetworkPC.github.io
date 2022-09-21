@@ -9,7 +9,6 @@
         "generate": "nuxt generate"
     },
     "dependencies": {
-        "@nuxtjs/i18n": "^7.2.2",
         "@vue/cli-service": "^5.0.8",
         "@vue/server-renderer": "^3.2.37",
         "babel": "^6.23.0",
