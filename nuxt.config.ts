@@ -29,7 +29,7 @@ export default defineNuxtConfig({
 			},
 		],
 	},
-	modules: [ "@nuxtjs/i18n"],
+	modules: [ "i18n"],
 	i18n: {
 		strategy: "prefix",
 		langDir: "locales",
