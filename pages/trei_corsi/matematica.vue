@@ -22,7 +22,7 @@ export default {
               "Corso",
               "Note",
               "Mac o Windows?",
-              "Requisiti"
+              "Requisiti",
             ],
             righe: [
               {
@@ -37,27 +37,27 @@ export default {
                       "Matematica Numerica",
                       "Fondamenti di Automatica",
                       "Metodi Analitici e Numerici Delle EDP",
-                      "Scienza delle Costruzioni (facoltativo)"
-                    ]
+                      "Scienza delle Costruzioni (facoltativo)",
+                    ],
                   },
                   {
                     id: 3,
                     type: "text",
-                    text: ["MATLAB è fondamentale e sarà usato tantissimo."]
+                    text: ["MATLAB è fondamentale e sarà usato tantissimo."],
                   },
                   {
                     id: 4,
                     type: "text",
-                    text: ["Nessuna differenza."]
+                    text: ["Nessuna differenza."],
                   },
                   {
                     id: 5,
                     type: "link",
                     text: [
-                      "https://it.mathworks.com/support/requirements/matlab-system-requirements.html"
-                    ]
-                  }
-                ]
+                      "https://it.mathworks.com/support/requirements/matlab-system-requirements.html",
+                    ],
+                  },
+                ],
               },
               {
                 id: 2,
@@ -66,30 +66,30 @@ export default {
                   {
                     id: 2,
                     type: "text",
-                    text: ["Fondamenti di Ricerca Operativa"]
+                    text: ["Fondamenti di Ricerca Operativa"],
                   },
                   {
                     id: 3,
                     type: "text",
                     text: [
-                      "AMPL è un software molto di nicchia, viene usato solo in un corso, ha un IDE (ambiente di sviluppo) che è un po' lacunoso."
-                    ]
+                      "AMPL è un software molto di nicchia, viene usato solo in un corso, ha un IDE (ambiente di sviluppo) che è un po' lacunoso.",
+                    ],
                   },
                   {
                     id: 4,
                     type: "text",
                     text: [
-                      "L'IDE di base su Mac dà problemi, ma io personalmente mi sono trovato molto molto meglio su Mac con un editor di testo (Sublime) e lanciando i programmi da terminale. È una cosa alla portata di tutti e che non deve scoraggiare, non escludete Mac solo per AMPL."
-                    ]
+                      "L'IDE di base su Mac dà problemi, ma io personalmente mi sono trovato molto molto meglio su Mac con un editor di testo (Sublime) e lanciando i programmi da terminale. È una cosa alla portata di tutti e che non deve scoraggiare, non escludete Mac solo per AMPL.",
+                    ],
                   },
                   {
                     id: 5,
                     type: "link",
                     text: [
-                      "https://it.mathworks.com/support/requirements/matlab-system-requirements.html"
-                    ]
-                  }
-                ]
+                      "https://it.mathworks.com/support/requirements/matlab-system-requirements.html",
+                    ],
+                  },
+                ],
               },
               {
                 id: 3,
@@ -100,25 +100,25 @@ export default {
                     type: "list",
                     text: [
                       "Statistica",
-                      "Modelli e Metodi dell'Inferenza Statistica"
-                    ]
+                      "Modelli e Metodi dell'Inferenza Statistica",
+                    ],
                   },
                   {
                     id: 3,
                     type: "text",
                     text: [
-                      "Usato poco al primo anno, abbastanza per il progetto dell'ultimo anno, ma MMIS è facoltativo."
-                    ]
+                      "Usato poco al primo anno, abbastanza per il progetto dell'ultimo anno, ma MMIS è facoltativo.",
+                    ],
                   },
                   { id: 4, type: "text", text: ["Nessuna differenza."] },
                   {
                     id: 5,
                     type: "link",
                     text: [
-                      "https://www.quora.com/What-are-minimum-requirements-for-a-laptop-to-perform-R-statistics"
-                    ]
-                  }
-                ]
+                      "https://www.quora.com/What-are-minimum-requirements-for-a-laptop-to-perform-R-statistics",
+                    ],
+                  },
+                ],
               },
               {
                 id: 4,
@@ -128,23 +128,23 @@ export default {
                   {
                     id: 3,
                     type: "text",
-                    text: ["Qualunque software che compili C++ va bene."]
+                    text: ["Qualunque software che compili C++ va bene."],
                   },
                   {
                     id: 4,
                     type: "text",
                     text: [
-                      "Su Mac XCode è consigliato, su Windows ci sono più scelte: DevC++, Codeblocks... In generale non è un problema."
-                    ]
+                      "Su Mac XCode è consigliato, su Windows ci sono più scelte: DevC++, Codeblocks... In generale non è un problema.",
+                    ],
                   },
                   {
                     id: 5,
                     type: "text",
                     text: [
-                      "Dipende dalla versione, ma in generale per l'uso che se fa non serve tanto"
-                    ]
-                  }
-                ]
+                      "Dipende dalla versione, ma in generale per l'uso che se fa non serve tanto",
+                    ],
+                  },
+                ],
               },
               {
                 id: 5,
@@ -153,20 +153,20 @@ export default {
                   {
                     id: 2,
                     type: "text",
-                    text: ["Economia e Organizzazione Aziendale"]
+                    text: ["Economia e Organizzazione Aziendale"],
                   },
                   {
                     id: 3,
                     type: "text",
                     text: [
-                      "Va bene anche Keynote o Libre, qualunque foglio di calcolo, è giusto un aiuto."
-                    ]
+                      "Va bene anche Keynote o Libre, qualunque foglio di calcolo, è giusto un aiuto.",
+                    ],
                   },
                   { id: 4, type: "text", text: ["Nessuna differenza."] },
-                  { id: 5, type: "text", text: ["un computer"] }
-                ]
-              }
-            ]
+                  { id: 5, type: "text", text: ["un computer"] },
+                ],
+              },
+            ],
           },
           {
             id: 2,
@@ -175,7 +175,7 @@ export default {
               "Processore",
               "RAM",
               "SSD (archiviazione)",
-              "Scheda grafica"
+              "Scheda grafica",
             ],
             righe: [
               {
@@ -185,19 +185,19 @@ export default {
                   {
                     id: 2,
                     type: "text",
-                    text: ["8 GB, ma con 16 GB si sta più tranquilli"]
+                    text: ["8 GB, ma con 16 GB si sta più tranquilli"],
                   },
                   { id: 3, type: "text", text: ["minimo 250 GB"] },
                   {
                     id: 4,
                     type: "text",
                     text: [
-                      "il software più pesante è MATLAB, se regge quello, allora a posto"
-                    ]
-                  }
-                ]
-              }
-            ]
+                      "il software più pesante è MATLAB, se regge quello, allora a posto",
+                    ],
+                  },
+                ],
+              },
+            ],
           },
           {
             id: 3,
@@ -212,10 +212,10 @@ export default {
                     id: 2,
                     type: "text",
                     text: [
-                      "Soluzione più economica, studiare su carta è meno stressante e si ha più spazio a disposizione."
-                    ]
-                  }
-                ]
+                      "Soluzione più economica, studiare su carta è meno stressante e si ha più spazio a disposizione.",
+                    ],
+                  },
+                ],
               },
               {
                 id: 2,
@@ -225,10 +225,10 @@ export default {
                     id: 2,
                     type: "text",
                     text: [
-                      "Soluzione intermedia, lo schermo non è laminato, ovvero si percepisce il distacco tra la penna e il tratto sullo schermo, lo spazio è piccolo e scorrere tra gli argomenti fa perdere tempo. Consigliato solo per certi corsi, ma comunque sempre stampandoli a fine corso per sfogliarli velocemente. Evitare tablet non-Apple, non sono minimamente all'altezza e OneNote è un pacco assurdo. Uniche possibilità valide: GoodNotes o Notability."
-                    ]
-                  }
-                ]
+                      "Soluzione intermedia, lo schermo non è laminato, ovvero si percepisce il distacco tra la penna e il tratto sullo schermo, lo spazio è piccolo e scorrere tra gli argomenti fa perdere tempo. Consigliato solo per certi corsi, ma comunque sempre stampandoli a fine corso per sfogliarli velocemente. Evitare tablet non-Apple, non sono minimamente all'altezza e OneNote è un pacco assurdo. Uniche possibilità valide: GoodNotes o Notability.",
+                    ],
+                  },
+                ],
               },
               {
                 id: 3,
@@ -238,10 +238,10 @@ export default {
                     id: 2,
                     type: "text",
                     text: [
-                      "Soluzione per trattarsi un po' bene, schermo laminato, stesso discorso per lo spazio e la stampa."
-                    ]
-                  }
-                ]
+                      "Soluzione per trattarsi un po' bene, schermo laminato, stesso discorso per lo spazio e la stampa.",
+                    ],
+                  },
+                ],
               },
               {
                 id: 4,
@@ -251,83 +251,83 @@ export default {
                     id: 2,
                     type: "text",
                     text: [
-                      "Soluzione too much, se avete soldi da buttare è un ottimo prodotto, ma non ne userete più del 15% se prendete solo appunti"
-                    ]
-                  }
-                ]
-              }
-            ]
+                      "Soluzione too much, se avete soldi da buttare è un ottimo prodotto, ma non ne userete più del 15% se prendete solo appunti",
+                    ],
+                  },
+                ],
+              },
+            ],
           },
           {
             id: 4,
             text: "Modello",
             intestazione: ["Modello", "Link", "Prezzo"],
             righe: [
-				{
+              {
                 id: 1,
                 celle: [
                   {
                     id: 1,
                     type: "text",
-                    text: [
-                      "Acer Aspire 5 A515-56-72J0"
-                    ]
+                    text: ["Acer Aspire 5 A515-56-72J0"],
                   },
                   {
                     id: 2,
                     type: "link",
-                    text: ["https://www.amazon.it/Acer-A515-56-72J0-Portatile-Processore-i7-1165G7/dp/B08M3WD1K5/"]
+                    text: [
+                      "https://www.amazon.it/Acer-A515-56-72J0-Portatile-Processore-i7-1165G7/dp/B08M3WD1K5/",
+                    ],
                   },
-				  {
+                  {
                     id: 3,
                     type: "text",
-                    text: ["799,00€"]
-                  }
-                ]
+                    text: ["799,00€"],
+                  },
+                ],
               },
-			  {
+              {
                 id: 2,
                 celle: [
                   {
                     id: 1,
                     type: "text",
-                    text: [
-                      "Acer Nitro 5 AN515-55-53PX"
-                    ]
+                    text: ["Acer Nitro 5 AN515-55-53PX"],
                   },
                   {
                     id: 2,
                     type: "link",
-                    text: ["https://www.amazon.it/Acer-AN515-55-53PX-Computer-Processore-i5-10300H/dp/B08M42751M/"]
+                    text: [
+                      "https://www.amazon.it/Acer-AN515-55-53PX-Computer-Processore-i5-10300H/dp/B08M42751M/",
+                    ],
                   },
-				  {
+                  {
                     id: 3,
                     type: "text",
-                    text: ["809,00€"]
-                  }
-                ]
+                    text: ["809,00€"],
+                  },
+                ],
               },
-			  {
+              {
                 id: 3,
                 celle: [
                   {
                     id: 1,
                     type: "text",
-                    text: [
-                      "HP - PC 15s-fq2003sl"
-                    ]
+                    text: ["HP - PC 15s-fq2003sl"],
                   },
                   {
                     id: 2,
                     type: "link",
-                    text: ["https://www.amazon.it/HP-15s-fq2003sl-Notebook-i7-1165G7-Windows/dp/B08WCDZ73J"]
+                    text: [
+                      "https://www.amazon.it/HP-15s-fq2003sl-Notebook-i7-1165G7-Windows/dp/B08WCDZ73J",
+                    ],
                   },
-				  {
+                  {
                     id: 3,
                     type: "text",
-                    text: ["799,99€"]
-                  }
-                ]
+                    text: ["799,99€"],
+                  },
+                ],
               },
               {
                 id: 4,
@@ -336,26 +336,28 @@ export default {
                     id: 1,
                     type: "text",
                     text: [
-                      "(A1398) MacBook Pro 15-Inch 'Core i7' 2.3 Late 2013"
-                    ]
+                      "(A1398) MacBook Pro 15-Inch 'Core i7' 2.3 Late 2013",
+                    ],
                   },
                   {
                     id: 2,
                     type: "link",
-                    text: ["https://www.amazon.it/Apple-MacBook-Late-2013-Ricondizionato/dp/B08C73DHMMT"]
+                    text: [
+                      "https://www.amazon.it/Apple-MacBook-Late-2013-Ricondizionato/dp/B08C73DHMMT",
+                    ],
                   },
-				  {
+                  {
                     id: 3,
                     type: "text",
-                    text: ["950,00€"]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+                    text: ["950,00€"],
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     };
-  }
+  },
 };
 </script>

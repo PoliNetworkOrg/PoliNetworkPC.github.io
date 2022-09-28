@@ -10,7 +10,7 @@
                 <div>
                   <div>
                     <h1 class="scuole">
-                      <span  >
+                      <span>
                         {{ $t("Scuola AUIC") }}
                       </span>
                     </h1>
@@ -19,7 +19,7 @@
                 <div>
                   <div>
                     <h5 class="scuoleTitolo">
-                      <span >
+                      <span>
                         {{
                           $t(
                             "ARCHITETTURA URBANISTICA INGEGNERIA DELLE COSTRUZIONI"
@@ -42,17 +42,16 @@
                 <div>
                   <div>
                     <h1 class="scuole">
-                      <span  >    {{ $t("Scuola 3I") }} </span>
+                      <span> {{ $t("Scuola 3I") }} </span>
                     </h1>
                   </div>
                 </div>
                 <div>
                   <div>
                     <h5 class="scuoleTitolo">
-                      <span  >
-                         {{ $t("INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE") }}
+                      <span>
+                        {{ $t("INGEGNERIA INDUSTRIALE E DELL' INFORMAZIONE") }}
                       </span>
-
                     </h5>
                   </div>
                 </div>
@@ -70,15 +69,14 @@
                 <div>
                   <div>
                     <h1 class="scuole">
-                      <span  >       {{ $t("Scuola ICAT") }} </span>
- 
+                      <span> {{ $t("Scuola ICAT") }} </span>
                     </h1>
                   </div>
                 </div>
                 <div>
                   <div>
                     <h5 class="scuoleTitolo">
-                      <span  >
+                      <span>
                         {{ $t("INGEGNERIA CIVILE, AMBIENTALE E TERRITORIALE") }}
                       </span>
                     </h5>
@@ -98,16 +96,15 @@
                 <div>
                   <div>
                     <h1 class="scuole">
-                      <span >     {{ $t("Scuola Design") }} </span>
- 
+                      <span> {{ $t("Scuola Design") }} </span>
                     </h1>
                   </div>
                 </div>
                 <div>
                   <div>
                     <h5 class="scuoleTitolo">
-                      <span >
-                         {{ $t("MODA, INTERNI, COMUNICAZIONE, PRODOTTO") }}
+                      <span>
+                        {{ $t("MODA, INTERNI, COMUNICAZIONE, PRODOTTO") }}
                       </span>
                     </h5>
                   </div>

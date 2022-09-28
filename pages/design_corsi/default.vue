@@ -1,19 +1,19 @@
 <template>
-    <div>
-        <ListePCSingolo :data-lista="items" language="it" />
-    </div>
+  <div>
+    <ListePCSingolo :data-lista="items" language="it" />
+  </div>
 </template>
 
 <script>
 export default {
-    data () {
+  data() {
     return {
       items: {
-            notFound: true,
-			scuolalink: "../../design/",     
-            buttons:[ ]
-        }
-    }
-  }
-}
+        notFound: true,
+        scuolalink: "../../design/",
+        buttons: [],
+      },
+    };
+  },
+};
 </script>

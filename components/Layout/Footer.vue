@@ -25,9 +25,13 @@
           "
         >
           <span
-            ><a style="color:inherit;" href="https://polinetwork.org/learnmore/official/">{{
-              $t("Questo sito non è affiliato al Politecnico di Milano")
-            }}</a></span
+            ><a
+              style="color: inherit"
+              href="https://polinetwork.org/learnmore/official/"
+              >{{
+                $t("Questo sito non è affiliato al Politecnico di Milano")
+              }}</a
+            ></span
           >
         </p>
       </div>

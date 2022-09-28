@@ -43,12 +43,16 @@
                 <tr>
                   <td>
                     <NuxtLink :to="switchLocalePath('it')"
-                      ><img src="/static/img/it.png" style="width: 35px; padding: 6px"
+                      ><img
+                        src="/static/img/it.png"
+                        style="width: 35px; padding: 6px"
                     /></NuxtLink>
                   </td>
                   <td>
                     <NuxtLink :to="switchLocalePath('en')"
-                      ><img src="/static/img/en.png" style="width: 35px; padding: 6px"
+                      ><img
+                        src="/static/img/en.png"
+                        style="width: 35px; padding: 6px"
                     /></NuxtLink>
                   </td>
                 </tr>

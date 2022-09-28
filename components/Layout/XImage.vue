@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <img :src="require(imageUrl)" :class="classParam">
-    </div>
+  <div>
+    <img :src="require(imageUrl)" :class="classParam" />
+  </div>
 </template>
 
 <script>
@@ -9,12 +9,12 @@ export default {
   props: {
     imageUrl: {
       type: String,
-      default: ''
+      default: "",
     },
     classParam: {
       type: String,
-      default: ''
-    }
-  }
-}
+      default: "",
+    },
+  },
+};
 </script>
