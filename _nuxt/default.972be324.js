@@ -1,1 +1,0 @@
-import{_ as e}from"./PCSingolo.6da3d0f7.js";import{a as n,o as a,b as s,f as c}from"./entry.e9205ecf.js";const r={data(){return{items:{notFound:!0,scuolalink:"../../icat/",buttons:[]}}}};function _(i,l,u,p,t,d){const o=e;return a(),s("div",null,[c(o,{"data-lista":t.items,language:"it"},null,8,["data-lista"])])}const x=n(r,[["render",_]]);export{x as default};
