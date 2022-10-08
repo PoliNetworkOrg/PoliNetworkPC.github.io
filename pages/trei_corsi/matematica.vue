@@ -5,8 +5,7 @@
 </template>
 
 <script>
-
-import Math from "./../../static/json/mat.json"
+import Math from "./../../static/json/mat.json";
 export default {
   data() {
     return {
