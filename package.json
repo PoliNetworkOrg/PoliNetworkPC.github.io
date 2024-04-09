@@ -10,7 +10,7 @@
 		"nuxt": "3.0.0-rc.12"
 	},
 	"dependencies": {
-		"@nuxt/vite-builder": "^3.0.0",
+		"@nuxt/vite-builder": "^3.10.0",
 		
 		"@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge"
 	}
